@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="page solution">
+  <p class="eyebrow">Solutions &middot; {{ page.audience }}</p>
+  <h1 class="page__title">{{ page.title }}</h1>
+  {%- if page.lede -%}
+    <p class="lede">{{ page.lede }}</p>
+  {%- endif -%}
+  <div class="prose">
+    {{ content }}
+  </div>
+  {%- include cta.html -%}
+</article>

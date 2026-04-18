@@ -1,0 +1,32 @@
+primary:
+  - label: Solutions
+    url: /solutions/
+    children:
+      - label: Banks and NBFIs
+        url: /solutions/banks-nbfis/
+      - label: Fintechs and factors
+        url: /solutions/fintechs-factors/
+      - label: Public sector
+        url: /solutions/public-sector/
+  - label: Platform
+    url: /platform/
+  - label: How it works
+    url: /how-it-works/
+  - label: Evidence
+    url: /evidence/
+  - label: Resources
+    url: /resources/
+  - label: Insights
+    url: /insights/
+  - label: About
+    url: /about/
+
+footer:
+  - label: Contact
+    url: "mailto:info@monetago.com"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/company/monetago"
+  - label: Privacy
+    url: /privacy/
+  - label: Terms
+    url: /terms/
