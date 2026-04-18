@@ -1,0 +1,9 @@
+<ul class="stat-grid" role="list">
+  {%- for stat in site.data.stats -%}
+    <li class="stat">
+      <p class="stat__value">{{ stat.value }}</p>
+      <p class="stat__label">{{ stat.label }}</p>
+      {%- if stat.note -%}<p class="stat__note">{{ stat.note }}</p>{%- endif -%}
+    </li>
+  {%- endfor -%}
+</ul>

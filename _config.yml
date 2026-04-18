@@ -1,0 +1,50 @@
+title: MonetaGo
+tagline: Trade finance fraud prevention on a global registry.
+description: >-
+  MonetaGo runs the global registry that banks, fintechs, and public-sector
+  bodies use to prevent duplicate financing and authenticate trade documents.
+url: "https://www.monetago.com"
+lang: en
+
+author:
+  name: MonetaGo
+
+contact:
+  email: info@monetago.com
+  linkedin: https://www.linkedin.com/company/monetago
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+permalink: /insights/:year/:month/:slug/
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github
+  - node_modules
+  - script
+
+keep_files:
+  - .nojekyll

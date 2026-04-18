@@ -1,0 +1,28 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand">
+      <p class="brand__name">MonetaGo</p>
+      <p class="site-footer__tagline">{{ site.tagline }}</p>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="Footer">
+      <ul>
+        {%- for item in site.data.nav.footer -%}
+          <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+
+    <form class="site-footer__subscribe" action="mailto:{{ site.contact.email }}" method="post" enctype="text/plain">
+      <label for="subscribe-email">Get product and regulator updates</label>
+      <div class="subscribe-row">
+        <input id="subscribe-email" type="email" name="email" placeholder="you@bank.com" required>
+        <button class="btn btn--ghost" type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="container site-footer__meta">
+    <small>&copy; {{ 'now' | date: "%Y" }} MonetaGo, Inc. All rights reserved.</small>
+  </div>
+</footer>

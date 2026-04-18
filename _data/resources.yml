@@ -1,0 +1,24 @@
+- title: Duplicate financing in trade — a primer
+  kind: Whitepaper
+  summary: >-
+    How duplicate invoice and bill of lading financing happens, why it's hard to
+    spot inside a single bank, and how a cross-institution registry closes the gap.
+  url: "#"
+- title: Integrating Secure Financing over the Swift API
+  kind: Technical brief
+  summary: >-
+    Message flow, authentication, rate limits, and operational requirements for
+    banks connecting through Swift.
+  url: "#"
+- title: FAQs for risk and compliance teams
+  kind: FAQ
+  summary: >-
+    Data residency, confidential computing, lawful basis for sharing document
+    fingerprints, and how we handle no-match results.
+  url: "#"
+- title: ICC UK C4DTI "Shutting fraudsters out of trade"
+  kind: Regulator briefing
+  summary: >-
+    The industry initiative that MonetaGo operates against, and the standards
+    that shape it.
+  url: "https://iccwbo.uk/c4dti/"

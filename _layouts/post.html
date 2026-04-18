@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="page post">
+  <p class="eyebrow">
+    <a href="{{ '/insights/' | relative_url }}">Insights</a>
+    &middot;
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+  </p>
+  <h1 class="page__title">{{ page.title }}</h1>
+  {%- if page.lede -%}
+    <p class="lede">{{ page.lede }}</p>
+  {%- endif -%}
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

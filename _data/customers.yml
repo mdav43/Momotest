@@ -1,0 +1,29 @@
+institutions:
+  - name: Standard Chartered
+    kind: Global bank
+  - name: Lloyds Bank
+    kind: UK bank
+  - name: National Australia Bank
+    kind: Australian bank
+  - name: Swift
+    kind: Financial messaging network
+  - name: ICC United Kingdom
+    kind: Trade body (C4DTI)
+  - name: efcom
+    kind: Factoring platform
+  - name: IBM
+    kind: Technology partner
+
+quotes:
+  - quote: "The easy-to-understand platform enables us to prevent double financing fraud around the world in ways which were not possible before."
+    name: Ed Aldorino
+    role: Head of GTB Asia
+    org: Lloyds Bank
+  - quote: "A unified solution used by lenders to combat this type of financing fraud in international trade is the most effective way to help resolve this problem."
+    name: Mark Borton
+    role: Head of Trade and Working Capital Finance Product, Asia Transactional and Trade
+    org: National Australia Bank
+  - quote: "This will scale value throughout the banking community and make trade an even safer asset class than it is today."
+    name: Samuel Mathew
+    role: Global Head of Flow and Financial Institutions Trade
+    org: Standard Chartered
